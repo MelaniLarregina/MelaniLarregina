@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>galeria</title>
-        <link rel="stylesheet" href="../css/bootstrap.min.css.map">
+        <link rel="stylesheet" href="../libs/css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/style.css">
     </head>
     <header>
@@ -29,21 +29,44 @@
         </section>
         <section class="seccion_video">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/DPTSeXaVU8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-           
-        </section>
+           </section>
         <div>
             <h2>Dale play al video y conocenos un poco mas! </h2>
         </div> 
-           <section class="sectionimagenes">
-           <div class="section_imagenes">
-            <img class="imagen" src="../assets/images/acantilados-mdp.jpg" alt="imagen de los acantilados">
-            <img class="imagen" src="../assets/images/costa-mdp.jpg" alt="costa">
-            <img class="imagen" src="../assets/images/gruta-lourdes.jpg" alt="gruta">
-            <img  class="imagen" src="../assets/images/lago-mogotes.jpg" alt="lago-mogotes">
-            <img class="imagen" src="../assets/images/laguna-de-los-padres.jpg" alt="laguna-de-los-padres">
-            <img class="imagen" src="../assets/images/torre-tanque.jpg" alt="torre tanque">
-            </section>
-        </div>
+
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../assets/images/acantilados-mdp.jpg" class="d-block w-100" alt="acantilados">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/images/costa-mdp.jpg" class="d-block w-100" alt="costa">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/images/laguna-de-los-padres.jpg" class="d-block w-100" alt="laguna de los padres">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/images/bosque-peralta-ramos.jpg" class="d-block w-100" alt="bosque">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/images/lago-mogotes.jpg" class="d-block w-100" alt="lago mogotes">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/images/gruta-lourdes.jpg" class="d-block w-100" alt="gruta lourdes">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+          
     </main>
          <div class="footer-style">
             <footer>
@@ -52,6 +75,6 @@
                 <a class="social-media" href="https://wa.me/5492236894238" target="_blank">whatsapp</a>
             </footer>
         </div>
-        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script src="../libs/js/bootstrap.min.js"></script>
 </body>
 </html>
