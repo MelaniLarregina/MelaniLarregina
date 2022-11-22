@@ -65,9 +65,8 @@ nav ul li a:hover{color:#f4fbfc;}
 .social-media{
     text-decoration: none;
     color: white;
-    font-size: 2rem;
-    float: right;
-    margin-right: 2rem;
+    font-size: 1rem;
+    margin-right: 1rem;
 }
 
 .description-left{
@@ -141,24 +140,6 @@ nav ul li a:hover{color:#f4fbfc;}
     align-items: center;
     margin-bottom: 30%;
 }
-   
-.sectionimagenes{
-    display: flex;
-    width: 100vh;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    max-width: 100%;
-    margin: auto;
-    animation: escalar 1.5seg infinite;
-    margin-top: 5rem;
-}
-
-.section_imagenes{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-
-}
 
 .card-img-top{
     height: 15rem;
@@ -210,10 +191,18 @@ nav ul li a:hover{color:#f4fbfc;}
     width: 60rem;
 }
 
-.footer-style{
-    height: 3rem;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
+.row{
+    max-width: 100%;
+}
+
+
+
+
+
+
   
