@@ -210,11 +210,10 @@ nav ul li a:hover{color:#f4fbfc;}
     width: 60rem;
 }
 
-footer{
+.footer-style{
     height: 3rem;
     left: 0;
     bottom: 0;
     width: 100%;
-    color: white;
-    text-align: center;
   }
+  
