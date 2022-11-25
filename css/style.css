@@ -26,7 +26,7 @@ nav ul li {
     margin-left: 1rem;
 }
 
-nav ul li a{
+.nav-link{
     text-decoration: none;
     color: rgb(171, 116, 223);
     font-size: 2.5rem;
@@ -113,7 +113,7 @@ nav ul li a:hover{color:#f4fbfc;}
 
 .logo{
     display: inline-block;
-    width: 8%;
+    width: 10%;
     border-radius: 50%;
     margin: 1%;
 
@@ -199,23 +199,6 @@ nav ul li a:hover{color:#f4fbfc;}
 .row{
     max-width: 100%;
 }
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
 .fa {  
     padding: 20px;  
   text-align: center;  
@@ -239,3 +222,4 @@ nav ul li a:hover{color:#f4fbfc;}
   .fa:hover {  
       opacity: 0.9;  
   }
+
