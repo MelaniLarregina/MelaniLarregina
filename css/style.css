@@ -206,3 +206,36 @@ nav ul li a:hover{color:#f4fbfc;}
 
 
   
+
+
+
+
+
+
+
+
+
+
+.fa {  
+    padding: 20px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+  }  
+  .fa-facebook {  
+    background: #3B5998;  
+    color: white;  
+    
+  }   
+  .fa-instagram {  
+    background-color: #b8085a; 
+    color: rgb(228, 216, 224);  
+  }  
+  .fa-whatsapp {  
+    background: #067547;  
+    color: white;  
+  }  
+  .fa:hover {  
+      opacity: 0.9;  
+  }
