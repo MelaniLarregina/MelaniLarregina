@@ -206,6 +206,18 @@ nav ul li a:hover{color:#f4fbfc;}
     font-size: 30px;  
     width: 50px;  
   }  
+  .fa:hover{
+        animation-name: jump;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes jump {
+        0%   { transform: translate(0%, 0%)}
+        50% { transform: translate(0%, 8%)}
+        100% { transform: translate(0%, 0%)}
+    }
+
   .fa-facebook {  
     background: #3B5998;  
     color: white;  
@@ -244,3 +256,18 @@ nav ul li a:hover{color:#f4fbfc;}
     align-content: center;
 
 }
+.descripcion{
+    margin-left: 10rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    margin-right: 10rem;
+    font-size: large;
+    background-color: azure;
+    padding: 5rem;
+    color:rgb(91, 91, 91);
+    border-radius: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation-name: go-left;
+    animation-duration: 1s;
+}
+
