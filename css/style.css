@@ -1,75 +1,57 @@
-@import "reset"
-@import "header"
-
-
-
-
-.cuerpo{
-    .description-left{
-    display: table-cell;
-    margin-right: 30rem;
-    margin-bottom: 5rem;
-    margin-top: 5rem;
-    font-size: large;
-    background-color: azure;
-    padding: 5rem;
-    color: rgb(91, 91, 91);
-    border-radius: 50rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    animation-name: go-right;
-    animation-duration: 1s;
-    .image-and-description{
-        .landscape{
-            .description-left{
-                display: table-cell;
-                margin-right: 30rem;
-                margin-bottom: 5rem;
-                margin-top: 5rem;
-                font-size: large;
-                background-color: azure;
-                padding: 5rem;
-            
-                color: rgb(91, 91, 91);
-                border-radius: 50rem;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                animation-name: go-right;
-                animation-duration: 1s;
-                @keyframes go-right {
-                    0% {
-                        transform: translate(-100%, 0%)
-                    }
-                
-                    100% {
-                        transform: translate(0%, 0%)
-                    }
-                }
-                
-                @keyframes go-left {
-                    0% {
-                        transform: translate(100%, 0%)
-                    }
-                
-                    100% {
-                        transform: translate(0%, 0%)
-                    }
-                }
-                
-
-            }
-        }
-    }
-    }
+* {
+    margin: 0px;
+    padding: 0;
+   
+    box-sizing: border-box;
+    font-family: Lobster;
 }
 
+body {
+    background: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    ;
+}
+.navbar-nav{
+display: flex !important;
+justify-content: center !important;
+margin: 0px !important;
+}
 
+h1 {
+    color: rgb(171, 120, 219);
+    font-size: 3.5rem;
+    text-align: center;
+}
 
+h2 {
+    color: rgb(171, 120, 219);
+    font-size: 2.5rem;
+    text-align: center;
+}
 
+nav {
+    margin-bottom: 3rem;
+    display: inline-block;
+    text-align: right;
+    width: 89%;
+    margin-bottom: 4.5%;
+}
 
+nav ul li {
+    float: right;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
 
+.nav-link {
+    text-decoration: none;
+    color: rgb(171, 116, 223);
+    font-size: 2.5rem;
+}
 
-
-
-
+nav ul li a:hover {
+    color: #f4fbfc;
+}
 
 .link {
     display: inline-block;
@@ -108,7 +90,52 @@
     margin-right: 1rem;
 }
 
+.description-left {
+    display: table-cell;
+    margin-right: 30rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    font-size: large;
+    background-color: azure;
+    padding: 5rem;
 
+    color: rgb(91, 91, 91);
+    border-radius: 50rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation-name: go-right;
+    animation-duration: 1s;
+}
+
+@keyframes go-right {
+    0% {
+        transform: translate(-100%, 0%)
+    }
+
+    100% {
+        transform: translate(0%, 0%)
+    }
+}
+
+@keyframes go-left {
+    0% {
+        transform: translate(100%, 0%)
+    }
+
+    100% {
+        transform: translate(0%, 0%)
+    }
+}
+
+.description-right {
+    padding: 5rem;
+    font-size: large;
+    background-color: azure;
+    color: rgb(91, 91, 91);
+    border-radius: 50rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation-name: go-left;
+    animation-duration: 1s;
+}
 
 .image-and-description {
     margin: auto;
