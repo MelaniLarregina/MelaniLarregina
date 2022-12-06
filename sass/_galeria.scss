@@ -1,6 +1,6 @@
 .seccion_video {
     display: flex;
-    justify-content: $text-aling;
+    justify-content: center;
     margin-top: 3rem;
     margin-bottom: 4rem;
 }
@@ -8,7 +8,7 @@
     margin-top: 5rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: $text-aling;
+    justify-content: center;
     margin-bottom: 10rem;
     object-fit: cover;
 }

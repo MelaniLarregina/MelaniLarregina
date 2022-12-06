@@ -1,8 +1,28 @@
 $medida: 1rem;
 $auto: auto;
 $text-aling: center;
-$row: row;
-$column: column;
+$none: none;
+$block: inline-block;
+$unidad-medida: 4rem;
+$unidad: 10rem;
+$tres-rem: 3rem;
+$treinta-rem: 30rem;
+$cincuenta-rem: 50rem;
+$rems: 2.5rem;
+$cambiorem: 3.5rem;
+
+
+/*maps*/
+$flex:(
+auto: auto,
+center: center,
+);
+
+$rem:(
+tres-rem: 3rem,
+treinta-rem: 30rem,
+cincuenta-rem: 50rem,
+);
 
 
 

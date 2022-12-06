@@ -3,3 +3,12 @@
         display: none;
     }
 }
+
+@media (max-width: 981px) {
+    .logo {
+        justify-content: center;
+        object-fit: cover;
+        border-radius: 50%
+    }
+    
+}

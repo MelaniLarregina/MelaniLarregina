@@ -1,12 +1,12 @@
 .cuerpo{
     .description-left{
     display: table-cell;
-    margin-right: 30rem;
-    margin-bottom: 5rem;
-    margin-top: 5rem;
+    margin-right:map-get($rem,treinta-rem);
+    margin-bottom: $unidad/2;
+    margin-top: $unidad/2;
     font-size: large;
     background-color: azure;
-    padding: 5rem;
+    padding: $unidad/2;
     color: rgb(91, 91, 91);
     border-radius: 50rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -22,12 +22,12 @@
             object-fit: cover;
             .description-left{
                 display: table-cell;
-                margin-right: 30rem;
-                margin-bottom: 5rem;
-                margin-top: 5rem;
+                margin-right: map-get($rem,treinta-rem);
+                margin-bottom: $unidad/2;
+                margin-top: $unidad/2;
                 font-size: large;
                 background-color: azure;
-                padding: 5rem;
+                padding: $unidad/2;
                 color: rgb(91, 91, 91);
                 border-radius: 50rem;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
