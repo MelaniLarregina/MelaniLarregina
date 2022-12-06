@@ -1,30 +1,70 @@
 .navegacion{
     margin-bottom: 3rem;
-    display: inline-block; text-align: right; width: 89%; margin-bottom: 4.5%;
-    .lista{ float: right;
-        margin-right: 1rem;
+    display: inline-block; 
+    text-align: right;
+     width: 89%; 
+     margin-bottom: 4.5%;
+     .lista{
+        float: right;
+        margin-right: $medida;
         list-style-type: none;
         margin-top: 2rem;
-        margin-left: 1rem;
-        .item{ text-decoration: none;
+        margin-left: $medida;
+        .item{
+            text-decoration: none;
             color: rgb(171, 116, 223);
             font-size: 2.5rem;
-            .final{:hover{color:#f4fbfc;
-                .intro{
-                    color: rgb(171, 120, 219);
-    font-size: 3.5rem;
-    text-align: center;
-    .intro2{color: rgb(171, 120, 219);
-        font-size: 2.5rem;
-        text-align: center;
-
-    }
-                }
-
+            .link{
+            display: inline-block;
+            margin-block: 2px;
+            text-decoration: none;
+            color: #d16ba5;
+            position: relative;
+            margin-top: 10px;
+            font-size: 1.5rem;
+            .final{ :hover{color:#f4fbfc;
+        }
             }
-
         }
 
-    }
+
+     }
+
 }
+
 }
+.intro{
+    color: rgb(171, 120, 219);
+    font-size: 3.5rem;
+    text-align: $text-aling;
+}
+.intro2{
+    color: rgb(171, 120, 219);
+    font-size: 2.5rem;
+    text-align: $text-aling;
+}
+
+.link::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #d16ba5;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .25% ease;
+
+}
+
+.link:hover::after {
+    transform: scaleX(1);
+}
+
+.nav-bar {
+    display: block;
+    width: 100%;
+}
+

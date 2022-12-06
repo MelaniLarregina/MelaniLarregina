@@ -8,50 +8,42 @@
 body {
   background: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); }
 
-.navbar-nav {
-  display: flex !important;
-  justify-content: center !important;
-  margin: 0px !important; }
-
-h1 {
-  color: #ab78db;
-  font-size: 3.5rem;
-  text-align: center; }
-
-h2 {
-  color: #ab78db;
-  font-size: 2.5rem;
-  text-align: center; }
-
-nav {
+.navegacion {
   margin-bottom: 3rem;
   display: inline-block;
   text-align: right;
   width: 89%;
   margin-bottom: 4.5%; }
+  .navegacion .lista {
+    float: right;
+    margin-right: 1rem;
+    list-style-type: none;
+    margin-top: 2rem;
+    margin-left: 1rem; }
+    .navegacion .lista .item {
+      text-decoration: none;
+      color: #ab74df;
+      font-size: 2.5rem; }
+      .navegacion .lista .item .link {
+        display: inline-block;
+        margin-block: 2px;
+        text-decoration: none;
+        color: #d16ba5;
+        position: relative;
+        margin-top: 10px;
+        font-size: 1.5rem; }
+        .navegacion .lista .item .link .final :hover {
+          color: #f4fbfc; }
 
-nav ul li {
-  float: right;
-  margin-right: 1rem;
-  margin-top: 2rem;
-  margin-left: 1rem; }
+.intro {
+  color: #ab78db;
+  font-size: 3.5rem;
+  text-align: center; }
 
-.nav-link {
-  text-decoration: none;
-  color: #ab74df;
-  font-size: 2.5rem; }
-
-nav ul li a:hover {
-  color: #f4fbfc; }
-
-.link {
-  display: inline-block;
-  margin-block: 2px;
-  text-decoration: none;
-  color: #d16ba5;
-  position: relative;
-  margin-top: 10px;
-  font-size: 1.5rem; }
+.intro2 {
+  color: #ab78db;
+  font-size: 2.5rem;
+  text-align: center; }
 
 .link::after {
   content: '';
@@ -69,13 +61,11 @@ nav ul li a:hover {
 .link:hover::after {
   transform: scaleX(1); }
 
-.social-media {
-  text-decoration: none;
-  color: white;
-  font-size: 1rem;
-  margin-right: 1rem; }
+.nav-bar {
+  display: block;
+  width: 100%; }
 
-.description-left {
+.cuerpo .description-left {
   display: table-cell;
   margin-right: 30rem;
   margin-bottom: 5rem;
@@ -88,6 +78,26 @@ nav ul li a:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   animation-name: go-right;
   animation-duration: 1s; }
+  .cuerpo .description-left .image-and-description .landscape {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    object-fit: cover; }
+    .cuerpo .description-left .image-and-description .landscape .description-left {
+      display: table-cell;
+      margin-right: 30rem;
+      margin-bottom: 5rem;
+      margin-top: 5rem;
+      font-size: large;
+      background-color: azure;
+      padding: 5rem;
+      color: #5b5b5b;
+      border-radius: 50rem;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      animation-name: go-right;
+      animation-duration: 1s; }
 
 @keyframes go-right {
   0% {
@@ -101,53 +111,19 @@ nav ul li a:hover {
   100% {
     transform: translate(0%, 0%); } }
 
-.description-right {
-  padding: 5rem;
+.descripcion {
+  margin-left: 10rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  margin-right: 10rem;
   font-size: large;
   background-color: azure;
+  padding: 5rem;
   color: #5b5b5b;
-  border-radius: 50rem;
+  border-radius: 1%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   animation-name: go-left;
   animation-duration: 1s; }
-
-.image-and-description {
-  margin: auto; }
-
-.logo {
-  display: inline-block;
-  width: 10%;
-  border-radius: 50%;
-  margin: 1%; }
-
-.nav-bar {
-  display: block;
-  width: 100%; }
-
-.landscape {
-  width: 75%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
-
-.tamaño {
-  height: 100vh; }
-
-.titulos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30%; }
-
-.card-img-top {
-  height: 15rem;
-  object-fit: cover; }
-
-.seccion_video {
-  display: flex;
-  justify-content: center;
-  margin-top: 3rem;
-  margin-bottom: 4rem; }
 
 .card_contenedora {
   display: flex;
@@ -159,6 +135,10 @@ nav ul li a:hover {
 .card {
   margin: 5rem;
   width: 25rem; }
+
+.card-img-top {
+  height: 15rem;
+  object-fit: cover; }
 
 .card:hover {
   animation-name: jump;
@@ -173,6 +153,12 @@ nav ul li a:hover {
   100% {
     transform: translate(0%, 0%); } }
 
+.seccion_video {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 4rem; }
+
 #carousel {
   margin-top: 5rem;
   display: flex;
@@ -185,10 +171,45 @@ nav ul li a:hover {
   height: 30rem;
   width: 60rem; }
 
+.intro {
+  margin-left: 20px;
+  margin-left: 20px;
+  margin-bottom: 5px; }
+
+.logo {
+  display: inline-block;
+  width: 10%;
+  border-radius: 50%;
+  margin: 1%; }
+
+.titulos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30%; }
+
+.tamaño {
+  height: 100vh; }
+
+.image-and-description {
+  margin: auto; }
+
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center; }
+
+.col {
+  display: flex;
+  justify-content: center;
+  align-content: center; }
+
+.card-img, .card-img-bottom, .card-img-top {
+  width: auto; }
+
+@media (max-width: 600px) {
+  .happy {
+    display: none; } }
 
 .row {
   max-width: 100%;
@@ -242,35 +263,3 @@ nav ul li a:hover {
 
 .fa:hover {
   opacity: 0.9; }
-
-.col {
-  display: flex;
-  justify-content: center;
-  align-content: center; }
-
-.descripcion {
-  margin-left: 10rem;
-  margin-bottom: 5rem;
-  margin-top: 5rem;
-  margin-right: 10rem;
-  font-size: large;
-  background-color: azure;
-  padding: 5rem;
-  color: #5b5b5b;
-  border-radius: 1%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  animation-name: go-left;
-  animation-duration: 1s; }
-
-.card-img, .card-img-bottom, .card-img-top {
-  width: auto; }
-
-.intro {
-  margin-left: 20px;
-  margin-left: 20px;
-  margin-bottom: 5px; }
-
-/*-----------------mediaqueris--------------*/
-@media (max-width: 600px) {
-  .happy {
-    display: none; } }

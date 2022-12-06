@@ -16,9 +16,9 @@
         .landscape{
             width: 75%;
             display: block;
-            margin-left: auto;
-            margin-right: auto;
-            justify-content: center;
+            margin-left: $auto;
+            margin-right: $auto;
+            justify-content: $text-aling;
             object-fit: cover;
             .description-left{
                 display: table-cell;
@@ -28,7 +28,6 @@
                 font-size: large;
                 background-color: azure;
                 padding: 5rem;
-            
                 color: rgb(91, 91, 91);
                 border-radius: 50rem;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

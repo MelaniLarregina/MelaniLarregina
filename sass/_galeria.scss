@@ -1,0 +1,19 @@
+.seccion_video {
+    display: flex;
+    justify-content: $text-aling;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+#carousel {
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: $text-aling;
+    margin-bottom: 10rem;
+    object-fit: cover;
+}
+
+.carousel-inner {
+    height: 30rem;
+    width: 60rem;
+}
