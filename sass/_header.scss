@@ -1,63 +1,32 @@
+ @import"variables";
+
 .navegacion{
     margin-bottom: 3rem;
     display: $block; 
     text-align: right;
-     width: 89%; 
-     margin-bottom: 4.5%;
-     .lista{
-        float: right;
-        margin-right: $medida;
-        list-style-type: $none;
-        margin-top: $unidad-medida/2;
-        margin-left: $medida;
-        .item{
-            text-decoration: none;
-            color: rgb(171, 116, 223);
-            font-size: 2.5rem;
-            .link{
-            display: $block;
-            margin-block: 2px;
-            text-decoration: $none;
-            color: #d16ba5;
-            position: relative;
-            margin-top: 10px;
-            font-size: 1.5rem;
-            &:hover{color:#f4fbfc;
-            &::after{
-                content: '';
-                width: 100%;
-                height: 1px;
-                background: #d16ba5;
-                border-radius: 4px;
-                position: absolute;
-                left: 0;
-                bottom: 0;
-                transform: scaleX(0);
-                transform-origin: left;
-                transition: transform .25% ease;
-                transform: scaleX(1);
-
-                }
-            }
-
-            }
-            }
-        }
-
-
-     }
-
-
-
-.intro{
-   @include color-fontsize-textaling 
-}
-.intro2{
-   @include color-fontsize-textaling;
-}
-
-/*
-.link::after {
+    width: 89%; 
+    margin-bottom: 4.5%;
+.lista{
+    float: right;
+    margin-right: $medida;
+    list-style-type: $none;
+    margin-top: $unidad-medida/2;
+    margin-left: $medida;
+.item{
+    text-decoration: none;
+    color: rgb(171, 116, 223);
+    font-size: 2.5rem;
+.link{
+    display: $block;
+    margin-block: 2px;
+    text-decoration: $none;
+    color: #d16ba5;
+    position: relative;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    &:hover{
+    color:#f4fbfc;  
+    &::after{
     content: '';
     width: 100%;
     height: 1px;
@@ -69,16 +38,31 @@
     transform: scaleX(0);
     transform-origin: left;
     transition: transform .25% ease;
-
-}
-
-.link:hover::after {
     transform: scaleX(1);
-}
-/*
 
-.nav-bar {
-    display: block;
-    width: 100%;
+
+    }
+
+    }
+
 }
+
+}
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
