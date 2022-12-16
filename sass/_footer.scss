@@ -1,0 +1,81 @@
+@import "variables";
+
+.container {
+    display: $Flexible;
+    flex-direction: column;
+    justify-content: $Centrado;
+    .row{
+        max-width: 100%;
+        margin-right: $Automatico;
+        margin-left: $Automatico;
+        .fa{
+            padding: 20px;
+            text-align: $Centrado;
+            margin: 5px 2px;
+            font-size: 30px;
+            width: 50px;
+            &:hover {
+                animation-name: jump;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                opacity: 0.9;
+                .fa-facebook{
+                    background: map-get($RedesSociales,facebook );
+                    color : white;
+                    display: inline-block;
+                    width: 5%;
+                    border-radius: 15%;
+                    padding: $MedidaClave;
+                    padding-right: $MedidaClave;
+                    .fa-instagram{
+                        background-color: map-get($RedesSociales ,instagram );
+                        color: rgb(228, 216, 224);
+                        display: $Bloque;
+                        width: 5%;
+                        border-radius: 15%;
+                        padding: $MedidaClave;
+                        .fa-whatsapp{
+                            background: map-get($RedesSociales, whatsapp);
+                            color: white;
+                            display : $Bloque;
+                            width: 5%;
+                            border-radius: 15%;
+                            padding: $MedidaClave;
+
+                        }
+                    }
+
+                }
+            }
+}
+    }
+}
+
+@keyframes jump {
+    0% {
+        transform: translate(0%, 0%)
+    }
+
+    50% {
+        transform: translate(0%, 8%)
+    }
+
+    100% {
+        transform: translate(0%, 0%)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
