@@ -161,7 +161,8 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   margin-top: 3rem;
-  margin-bottom: 4rem; }
+  margin-bottom: 4rem;
+}
 
 .card_contenedora {
   display: flex;

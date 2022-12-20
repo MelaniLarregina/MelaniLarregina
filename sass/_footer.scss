@@ -31,14 +31,14 @@
                         background-color: map-get($RedesSociales ,instagram );
                         color: rgb(228, 216, 224);
                         display: $Bloque;
-                        width: 5%;
+                        width: $Medida/2;
                         border-radius: 15%;
                         padding: $MedidaClave;
                         .fa-whatsapp{
                             background: map-get($RedesSociales, whatsapp);
                             color: white;
                             display : $Bloque;
-                            width: 5%;
+                            width: $Medida/2;
                             border-radius: 15%;
                             padding: $MedidaClave;
 
