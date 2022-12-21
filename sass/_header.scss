@@ -6,15 +6,11 @@
     }
     
     h1 {
-        color: rgb(171, 120, 219);
-        font-size: 3.5rem;
-        text-align: center;
+        @include color-tamaño-centrado;
     }
     
     h2 {
-        color: rgb(171, 120, 219);
-        font-size: 2.5rem;
-        text-align: center;
+        @include color-tamaño-centrado;
     }
     
     nav {
@@ -84,3 +80,10 @@
         width: 100%;
     }
     
+    @mixin  color-tamaño-centrado{
+        color: rgb(171, 120, 219);
+        font-size: 2.5rem;
+        text-align: center; 
+
+    }
+        
