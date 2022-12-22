@@ -327,3 +327,33 @@ nav ul li a:hover {
     transform: translate(0%, 8%); }
   100% {
     transform: translate(0%, 0%); } }
+
+.row mb-3{
+  margin-left: 10rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  margin-right: 10rem;
+  font-size: large;
+  background-color: azure;
+  padding: 5rem;
+  color: #5b5b5b;
+  border-radius: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation-name: go-left;
+  animation-duration: 1s;
+}
+
+.inputEmail3{
+  margin-left: 10rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  margin-right: 10rem;
+  font-size: large;
+  background-color: azure;
+  padding: 5rem;
+  color: #5b5b5b;
+  border-radius: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation-name: go-left;
+  animation-duration: 1s;
+}
