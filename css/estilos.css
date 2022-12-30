@@ -206,10 +206,10 @@ nav ul li a:hover {
   align-content: center; }
 
 .descripcion {
-  margin-left: 10rem;
+  margin-left: 5rem;
   margin-bottom: 5rem;
   margin-top: 5rem;
-  margin-right: 10rem;
+  margin-right: 5rem;
   font-size: large;
   background-color: azure;
   padding: 5rem;
@@ -217,7 +217,9 @@ nav ul li a:hover {
   border-radius: 1%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   animation-name: go-left;
-  animation-duration: 1s; }
+  animation-duration: 1s;
+overflow: auto;
+}
 
 .card-img, .card-img-bottom, .card-img-top {
   width: auto; }
@@ -282,6 +284,18 @@ nav ul li a:hover {
       }
     }
       /* Changes mobile logo to specified image */
+
+    @media only screen and (max-width: 981px){
+      .descripcion{
+        width: auto;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        margin-right: 1rem;
+        padding: 1rem;
+    }
+  }
+    
 
 /**Variables**/
 /**Maps**/
