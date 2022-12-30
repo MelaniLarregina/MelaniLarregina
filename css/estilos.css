@@ -45,7 +45,7 @@ nav ul li {
 .nav-link {
   text-decoration: none;
   color: #ab74df;
-  font-size: 2.5rem; }
+  font-size: 2rem; }
 
 nav ul li a:hover {
   color: #f4fbfc; }
@@ -295,9 +295,35 @@ overflow: auto;
         padding: 1rem;
     }
   }
-    
-
-/**Variables**/
+  @media (min-width: 1000px){
+    .happy{
+      font-size: 5rem;
+   }
+  }
+  
+  @media (min-width: 800px){
+    .happy{
+      font-size: 5rem;
+    }
+  }
+  
+  @media (min-width: 600px){
+    .happy{
+      font-size: 2rem;
+    }
+  }
+ 
+  @media (min-width: 500px){
+    .happy{
+      font-size: 2rem;
+    }
+  }
+  @media (min-width: 400px){
+    .happy{
+      font-size: 2rem;
+    }
+  }
+  /**Variables**/
 /**Maps**/
 .container {
   display: flex;
