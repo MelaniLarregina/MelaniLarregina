@@ -45,7 +45,7 @@ nav ul li {
 .nav-link {
   text-decoration: none;
   color: #ab74df;
-  font-size: 2rem; }
+  font-size: 4rem; }
 
 nav ul li a:hover {
   color: #f4fbfc; }
@@ -262,9 +262,7 @@ overflow: auto;
 /**Variables**/
 /**Maps**/
 /*-----------------mediaqueris--------------*/
-@media (max-width: 600px) {
-  .happy {
-    display: none; } }
+
 
     @media (min-width: 768px) and (max-width: 940px){
         .carousel-item active{
@@ -309,20 +307,21 @@ overflow: auto;
   
   @media (min-width: 600px){
     .happy{
-      font-size: 2rem;
+      font-size: 5rem;
     }
   }
  
   @media (min-width: 500px){
     .happy{
-      font-size: 2rem;
+      font-size: 3rem;
     }
   }
-  @media (min-width: 400px){
+  @media (min-width: 200px){
     .happy{
-      font-size: 2rem;
+      font-size: 3rem;
     }
   }
+
   /**Variables**/
 /**Maps**/
 .container {
